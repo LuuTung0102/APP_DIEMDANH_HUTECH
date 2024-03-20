@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132534252291",
+    "project_id": "diemdanh-74609",
+    "storage_bucket": "diemdanh-74609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132534252291:android:c4ca94472208fd9e3baf36",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkq3NHY-IKjJrCHZEbyUCdOO0iE4lEub0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

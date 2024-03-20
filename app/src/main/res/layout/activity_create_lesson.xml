@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreateLessonActivity">
+
+    <TextView
+        android:id="@+id/classroom_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/lesson_date"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/lesson_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="ID của buổi học" />
+
+
+    <EditText
+        android:id="@+id/lesson_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lesson_id"
+        android:textSize="25dp"
+        android:hint="Tên buổi học" />
+
+    <EditText
+        android:id="@+id/lesson_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lesson_name"
+        android:textSize="25dp"
+        android:hint="Ngày học (VD: 24/12/2023)" />
+
+    <Button
+        android:id="@+id/add_lesson_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lesson_date"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:text="Thêm buổi học" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:layout_below="@id/add_lesson_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+</LinearLayout>
