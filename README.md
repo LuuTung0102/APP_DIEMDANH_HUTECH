@@ -1,0 +1,1 @@
+App Điểm danh cho sinh viên khi nhập đúng mssv hoặc quét mã sinh viên để điểm danh các buổi hội thảo hay các buổi học dành cho giáo viên hoặc các công tác viên (được làm dựa trên app điểm danh của Hutech)
